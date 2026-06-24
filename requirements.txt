@@ -1,1 +1,9 @@
 ipykernel
+kagglehub
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+xgboost

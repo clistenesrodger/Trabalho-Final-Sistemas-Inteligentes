@@ -35,3 +35,4 @@ Se quiser confirmar a instalação, você pode listar os pacotes com:
 ```bash
 pip list
 ```
+
