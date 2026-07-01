@@ -1,3 +1,12 @@
+# Objetivo do projeto
+
+O projeto é uma comparação entre três modelos de redes neurais convolucionais:
+
+- ResNet50
+- DenseNet121
+- ConvNeXtV2
+
+
 # Processo de instalação de dependências
 
 ## 1. Criar o ambiente virtual
@@ -41,13 +50,21 @@ Este projeto também pode ser executado no Google Colab, que roda diretamente no
 Você também pode abrir o projeto diretamente pelo navegador em `https://colab.research.google.com/` e executar o notebook por lá. E ative a GPU em `Ambiente de execução > Alterar tipo de ambiente de execução`.
 Você também pode instalar Extensão Google Colab pelo próprio visual studio code. Para selecionar o ambiente do colab pelo visual studio: ` Select Kerkel > Select Another Kernel > Colab > New Colab Server > GPU > T4 > Latest > Clicar na tecla Enter > Python 3 (ipykernel) `
 
-## Objetivo do projeto
+## 5. Salvamento dos Dados
 
-O projeto é uma comparação entre três modelos de redes neurais convolucionais:
+A estrutura de salvamento dos arquivos será organizada da seguinte forma:
 
-- ResNet50
-- DenseNet121
-- ConvNeXtV2
+```text
+.
+├── models/
+│   ├── ResNet50/
+│   ├── DenseNet121/
+│   └── ConvNeXtV2/
+└── resultados/
+    ├── ResNet50/
+    ├── DenseNet121/
+    └── ConvNeXtV2/
+```
 
 ## Referências
 
