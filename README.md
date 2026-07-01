@@ -34,7 +34,9 @@ O dataset utilizado é o **Almond Varieties**, disponível publicamente no Kaggl
 
 - **Link:** [https://www.kaggle.com/datasets/mahyeks/almond-varieties](https://www.kaggle.com/datasets/mahyeks/almond-varieties)
 
-Após baixar, extraia o conteúdo na raiz do projeto antes de executar os notebooks.
+O download e a extração são feitos automaticamente via `kagglehub` na primeira célula de execução, sem necessidade de configuração manual.
+
+
 
 ---
 
